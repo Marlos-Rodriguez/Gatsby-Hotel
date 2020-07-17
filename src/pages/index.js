@@ -1,12 +1,12 @@
 import React from "react"
 
 import Layout from "../components/layout"
+import ImagenHotel from "../components/imagenHotel"
 
 const IndexPage = () => {
   return (
     <Layout>
-      <h1>HOLA</h1>
-      <h1>DEAD</h1>
+      <ImagenHotel />
     </Layout>
   )
 }

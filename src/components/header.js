@@ -1,12 +1,14 @@
 import React from "react"
 import { css } from "@emotion/core"
 
+import Navegacion from "./nav"
+
 const Header = () => {
   return (
     <header
       css={css`
-        background-color: #333;
-        padding: 1rem;
+        background-color: #222;
+        padding: 0.8rem;
       `}
     >
       <div
@@ -29,6 +31,7 @@ const Header = () => {
         >
           Hotel Gatsby
         </h1>
+        <Navegacion />
       </div>
     </header>
   )
