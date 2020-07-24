@@ -11,7 +11,7 @@ const EnlaceHome = styled(Link)`
   text-decoration: none;
 `
 
-const Footer = () => {
+const Footer = ({ title }) => {
   const year = new Date().getFullYear()
   return (
     <>
