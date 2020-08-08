@@ -8,7 +8,6 @@ import useSeo from "../hooks/use-seo"
 
 const Layout = props => {
   const {
-    siteName,
     fallbackSeo: { description, title },
   } = useSeo()
 
